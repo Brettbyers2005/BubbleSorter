@@ -1,4 +1,18 @@
 # Cisc121 Algorithm Visualization Project
+Live Demo: https://huggingface.co/spaces/BrettByers/Bubblesorter
+
+
+## Steps to run the app 
+1. Dowload Github repository
+2. Open Project folder in what I coded this in (VS code) or whatever editor your using.
+3. Make sure you have python 3 of couse
+4. Install library with this command in terminal: pip install gradio
+5. Then run the app with: python3 app.py (this will give you a link where you can open it up)
+
+## Hugging face link
+https://huggingface.co/spaces/BrettByers/Bubblesorter
+
+
 ## Step 1 - Algorithm Chose: Bubble Sort
 
 I ended up choosing bubble sort because overall it is the easiest and simplest to impliment. It is also much more effective for visual representation then linear. The problem which will be solved is arranging values from smallest to largest, which as is known bubble sort, sorts it that way but comparing neighboring elements until the list is fully sorted. 
