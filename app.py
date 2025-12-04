@@ -110,7 +110,7 @@ if __name__ == "__main__":
     
 
    #this forces Gradio to show url in terminal lol (GPT helped me with that one)
-    demo.launch(share=True)
+    demo.launch()
 
 
 
