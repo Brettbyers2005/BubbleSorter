@@ -42,3 +42,38 @@ How input -> processing -> output will flow.
 
 
 ## Step 5 
+
+### Testing and Verifying 
+I did 5 different tests (edge cases and normal tests) just to make sure my app works properly
+Test 1: 
+Input: 20, 210, 21, 67, 45, 98, 987
+Expected outcome: 20, 21, 45, 67, 98, 210, 987
+The expected outcome was the exact same as the actual outcome we got as seen in the screenshot below:
+![Test 1 output](<Screenshot 2025-12-03 at 9.01.07 PM.png>)
+
+Test 2:
+Input: a, b, c 
+Expected outcome: Error message (The one I wrote in my code)
+The outcome that was expected, was what was shown as well, "This is a error, please enter whole numbers no decimals," as seen in this screenshot below:
+![Test 2 Output](<Screenshot 2025-12-03 at 9.04.42 PM.png>)
+
+Test 3:
+Input: 4
+Expected outcome: 4
+Again with this input the expected code was the correct code that was displayed in my app as seen in the screenshot below:
+![Test 3 Output](<Screenshot 2025-12-03 at 9.06.05 PM.png>)
+
+Test 4: 
+Input: -4, -12, 12, 4 
+Expected outcome: -12, -4, 4, 12
+Again with this test I expected the code to sort the nunmbers from lowest to highest and that is what happened in the screenshot below:
+![Test 4 Output](<Screenshot 2025-12-03 at 9.07.55 PM.png>)
+
+Test 5:
+Input: 1, 2, 3, 4, 5
+Expected outcome: 1, 2, 3, 4, 5
+For this code I expect the list to not change as it is already sorted and that is what I got, as seen in the screenshot below:
+![Test 5 Output](<Screenshot 2025-12-03 at 9.09.28 PM.png>)
+
+Note:
+Overall I tested some edge cases like using one number or negatives in certain examples, as well as using letters. And my app responded accordingly for all these tests. So overall all my tests worked and it was successful. 
